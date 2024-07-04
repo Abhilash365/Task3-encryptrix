@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+<div class="container">
+<div class="title">
+    Calculator
+</div>
+<div class="screen" id="scr"></div>
+<div class="keys">
+    <div class="inside" >
+
+        <button class="fun" onclick="clr()">AC</button>
+        <button class="fun" onclick="minus1()"><i class="ri-delete-back-2-line"></i></button>
+        <button class="fun" onclick="show('/')">/</button>
+        <button class="fun" onclick="show('*')">*</button>
+        <button class="num" onclick="showN('7')">7</button>
+        <button class="num" onclick="showN('8')">8</button>
+        <button class="num" onclick="showN('9')">9</button>
+        <button class="fun" onclick="show('-')">-</button>
+        <button class="num" onclick="showN('4')">4</button>
+        <button class="num" onclick="showN('5')">5</button>
+        <button class="num" onclick="showN('6')">6</button>
+        <button class="fun" onclick="show('+')">+</button>
+        <button class="num" onclick="showN('1')">1</button>
+        <button class="num" onclick="showN('2')">2</button>
+        <button class="num" onclick="showN('3')">3</button>
+        <button class="num zero" onclick="showN('0')">0</button>
+        <button class="num" onclick="showN('.')">.</button>
+        <button class="fun equal" onclick="calci()">=</button>
+    </div>
+   
+</div>
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
